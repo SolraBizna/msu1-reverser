@@ -1,0 +1,12 @@
+[package]
+name = "msu1-reverser"
+version = "1.0.0"
+edition = "2021"
+authors = ["Solra Bizna <solra@bizna.name>"]
+description = "A joke tool that can reverse an MSU-1 PCM file."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SolraBizna/msu1-reverser"
+
+[dependencies]
+clap = {version = "4.1.6", features = ["wrap_help", "derive"]}
+rand = "0.8.5"
